@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+nav{
+    background-color: rgb(30, 9, 50);
+    color: aliceblue;
+    height: 4vw;
+   display: flex;
+   align-items: center;
+   font-size: 2vw;
+   justify-content: center;
+   font-family: "Sevillana", cursive;
+   
+}
+.info{font-size: 2vw;}
+nav ul{
+    list-style-type: none;
+    
+}
+
+.gamecontainer{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+  
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 5vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: rgb(238, 222, 255);
+}
+
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+.bt{
+    border-top: 0;
+}
+.bb{
+    border-bottom: 0;
+}
+.bl{
+    border-left: 0;
+}
+.br{
+    border-right: 0;
+}
+
+.info h2{
+    font-size: 5vw;
+}
+#reset{
+    height: 4vw;
+  width: 10vw;
+  border-radius: 1vw;
+  background-color:rgb(233, 162, 252);
+}
+
